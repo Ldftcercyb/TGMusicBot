@@ -6,7 +6,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 
 TOKEN = '7939631781:AAGBR38TykN2YyIh8dh2qQSRM11FtXGqTVY'  # Փոխարինեք ձեր բոտի նշանաբառով
-OWNER_ID = 5743254515  # Փոխարինեք ձեր Telegram ID-ով
+OWNER_ID = 5743254515 
 BANNED_USERS_FILE = 'banned_users.txt'
 
 bot = telebot.TeleBot(TOKEN)
